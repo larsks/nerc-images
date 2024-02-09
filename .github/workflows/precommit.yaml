@@ -1,7 +1,8 @@
+---
 name: Run pre-commit checks
 
 on:
-  pull_request:
+  pull_request: true
 
 jobs:
   run-linters:
